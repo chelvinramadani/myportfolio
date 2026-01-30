@@ -3,9 +3,9 @@ import dicodingweb from "../assets/certificate/dicodingpemweb.png";
 import dicodingfrontend from "../assets/certificate/dicodingfrontend.png";
 import dicodingai from "../assets/certificate/dicodingAI.png";
 import Santika25 from "../assets/certificate/Santika2025.png"
-import Pibiti23 from "../assets/certificate/Pibiti23.png"
-import Pibiti24 from "../assets/certificate/Pibiti24.png"
-import Pibiti25 from "../assets/certificate/Pibiti25.png"
+import Pibiti23 from "../assets/certificate/pibiti23.png"
+import Pibiti24 from "../assets/certificate/pibiti24.png"
+import Pibiti25 from "../assets/certificate/pibiti25.png"
 
 const certificates = [
   {
