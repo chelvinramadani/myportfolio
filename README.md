@@ -1,16 +1,34 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portfolio pribadi yang dibangun untuk menampilkan profil, pengalaman, proyek, sertifikat, dan informasi kontak secara profesional dengan tampilan **minimalis, modern, dan glassmorphism**.
 
-Currently, two official plugins are available:
+Website ini dibuat sebagai media personal branding serta dokumentasi perjalanan dan kemampuan saya di bidang **Frontend Web Development**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🧭 **Multi Page Website**
+  - Home
+  - About Me
+  - Projects
+  - Certificates
+  - Contact
+- 🎨 **Modern Glassmorphism UI**
+- 📱 **Responsive Design** (mobile, tablet, desktop)
+- 🧩 **Reusable Components**
+- 🖼️ **Project & Certificate Card dengan Modal Detail**
+- 🔗 **External Link Project (Conditional Render)**
+- ⚡ **Fast Performance dengan Vite**
+- 🌙 **Dark Theme Friendly**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+- **React JS**
+- **Vite**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Lucide React (Icons)**
+- **JavaScript**
