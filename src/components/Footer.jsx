@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Right - Social Icons */}
         <div className="flex items-center gap-5">
           <a
-            href="https://github.com/username"
+            href="https://github.com/chelvinramadani"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-white transition"
@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/username"
+            href="https://www.linkedin.com/in/chelvin-ramadani-yulianto-3ab462286/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-white transition"

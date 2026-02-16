@@ -1,6 +1,34 @@
 import Timeline from "../components/Timeline";
 import GlassCard from "../components/GlassCard";
 
+const education = [
+  {
+    year: "2023 – Sekarang",
+    title: "S1 Informatika",
+    place: "Universitas Pembangunan Nasional 'Veteran' Jawa Timur",
+    description:
+      "Telah menempuh 5 semester perkuliahan. Mengembangkan berbagai proyek mata kuliah secara individu maupun berkolaborasi dengan tim.",
+  },
+  {
+    year: "2020 – 2023",
+    title: "SMA IPA",
+    place: "SMA Negeri 22 Surabaya",
+    description:
+      "Mengikuti kegiatan ekstrakurikuler TKJ dan Web Programming untuk mengembangkan minat pada bidang Teknologi Informasi.",
+  },
+];
+
+const experiences = [
+  {
+    year: "Agustus – Desember 2025",
+    title: "Frontend Developer (Magang)",
+    place: "PT Jawa Pos Media Televisi (JTV)",
+    description:
+      "Mengembangkan UI menggunakan React JS dan Tailwind CSS serta berkolaborasi dengan tim backend untuk integrasi API.",
+  },
+];
+
+
 const About = () => {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0 pt-28 pb-24">
@@ -26,22 +54,13 @@ const About = () => {
       {/* Education Timeline */}
       <GlassCard className="p-8 mb-12">
         <h2 className="text-xl font-semibold mb-6">Pendidikan</h2>
-        <Timeline />
+        <Timeline items={education} />
       </GlassCard>
 
       {/* Experience */}
       <GlassCard className="p-8 mb-12">
         <h2 className="text-xl font-semibold mb-4">Pengalaman</h2>
-        <ul className="space-y-4 text-slate-300">
-          <li>
-            <strong className="text-white">Frontend Developer Intern</strong> – PT Jawa Pos Media Televisi (JTV)  
-            <div className="text-sm text-slate-400">Agustus - Desember 2025</div>
-            <p className="mt-1">
-              Pengembangan tampilan dan komponen antarmuka website menggunakan framework React JS dan Tailwind CSS.
-              Berkolaborasi dengan tim backend untuk melakukan fetch API.
-            </p>
-          </li>
-        </ul>
+        <Timeline items={experiences} />
       </GlassCard>
 
       {/* Skills */}
